@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAKE GAME</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <div id="container">
+        <h1><u> SNAKE GAME </u></h1>
+        <canvas id="canvas" width="600" height="400"></canvas>
+        <br><br>
+        <span id="sco">Score :<b id="score">0</b></span><br><br>
+        <button id="easy" class="btn"> EASY </button>
+        <button id="medium" class="btn"> MEDIUM</button>
+        <button id="hard" class="btn"> HARD </button><br><br>
+        <button id="start1" class="btn startgame" data-speed="300"> START GAME </button>
+        <button id="start2" class="btn startgame" data-speed="100"> START GAME </button>
+        <button id="start3" class="btn startgame" data-speed="50"> START GAME </button>
+        <button id="back" class="btn" >BACK</button>
+
+
+       
+    </div>
+    <div id="over"> GAME OVER!! </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="snake.js"></script>
+</body>
+</html>
